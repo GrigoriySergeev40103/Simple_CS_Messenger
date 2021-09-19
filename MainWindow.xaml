@@ -1,0 +1,21 @@
+﻿<Window x:Class="CSMessanger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSMessanger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="WidthAndHeight">
+    <Grid Margin="0,0,-0.4,0" HorizontalAlignment="Left">
+        <StackPanel HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794">
+            <Label Content="Login:"/>
+            <TextBox x:Name="LoginTextBox" Height="23" TextWrapping="Wrap"/>
+            <Label Content="Password"/>
+            <PasswordBox x:Name="PwdBox" Margin="0,0,0.4,0"/>
+            <Button Content="Log in" Click="LogInButton_Click"/>
+            <Button Content="Or Register new account" Click="RegisterButton_Click"/>
+            <TextBlock x:Name="ErrorMsgTextBlock" TextWrapping="Wrap"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="CSMessanger.PrivateMessageUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CSMessanger"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Label x:Name="MessageTextLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="460"/>
+        <Label x:Name="SenderUsernameLabel" Content="" HorizontalAlignment="Left" Margin="465,0,0,0" VerticalAlignment="Top" Height="36" Width="127"/>
+
+    </Grid>
+</UserControl>
